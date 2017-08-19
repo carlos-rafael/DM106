@@ -98,7 +98,7 @@ namespace WebAppStore.Controllers
                         frete = "Valor do frete: " + resultado.Servicos[0].Valor + " - Prazo de entrega: " + resultado.Servicos[0].PrazoEntrega + " dia(s)";
                         //realizada conversão de String para Decimal    
 
-                        order.PrecoFrete = Convert.ToDecimal(resultado.Servicos[0].Valor);
+                        order.PrecoFrete = Convert.ToDecimal(resultado.Servicos[0].Valor)/100;
                         //definição do preço total do pedido, que é a soma do preço de cada produto + o preço do frete
                         order.PrecoTotal += order.PrecoFrete;
                         //data da entrega é a soma do retorno de prazo do serviço à data do pedido (foi realizada conversão de String para double) antes de somar as datas
