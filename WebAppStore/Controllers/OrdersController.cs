@@ -271,10 +271,6 @@ namespace WebAppStore.Controllers
         [ResponseType(typeof(Order))]
         public IHttpActionResult PostOrder(Order order)
         {
-            //if (!ModelState.IsValid)
-            //{
-              //  return BadRequest(ModelState);
-            //}
 
             if (CheckUserFromOrder(User, order))
             {
