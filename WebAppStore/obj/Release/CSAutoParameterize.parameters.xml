@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=dbserverprojeto.database.windows.net;Initial Catalog=dbprojeto;Integrated Security=False;User ID=root1;Password=Adminadmin1;Connect Timeout=15;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Carlos\\documents\\visual\ studio\ 2017\\Projects\\WebAppStore\\WebAppStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="WebAppStoreContext-Web.config Connection String" description="WebAppStoreContext A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=dbserverprojeto.database.windows.net;Initial Catalog=dbprojeto;Integrated Security=False;User ID=root1;Password=Adminadmin1;Connect Timeout=15;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Carlos\\documents\\visual\ studio\ 2017\\Projects\\WebAppStore\\WebAppStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebAppStoreContext']/@connectionString" />
+  </parameter>
+</parameters>
